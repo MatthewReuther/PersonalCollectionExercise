@@ -2,7 +2,7 @@ package com.nashss.se.comprehensive2.collection;
 
 import java.math.BigDecimal;
 
-public class Coin {
+public class Coin implements Collectable{
     private final BigDecimal faceValue;
     private final BigDecimal collectorValue;
 
